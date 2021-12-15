@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("*\n**\n***\n****\n*****");
+		int a = 7;
+		int b = 10;
+		int sum = a+b;
+		int diff = b-a;
+		System.out.println(sum);
+		int mul = a*b;
+		int div = a/b;
+		System.out.println(mul);
+		int equa = (a*b)/(b-a);
+		System.out.print(equa);
+	}
+}
